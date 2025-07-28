@@ -26,7 +26,7 @@ There are four permissions listed here.
 - CopilotSettings-LimitedMode.Read
 
   Read organization-wide copilot limited mode setting
-  
+
   Admin consent required: yes
 
 - CopilotSettings-LimitedMode.ReadWrite
@@ -66,6 +66,10 @@ dotnet run
 ```
 
 Three tests from the `Manager.cs` will run.
+
+## Understanding the tests
+
+See `Manager.cs` ... there are three `Execute___Test()` methods, one for each test.
 
 ### Test 1
 
@@ -113,8 +117,8 @@ Details: {"error":{"code":"PreconditionFailed","message":"Requested API is not s
 
 **Licensing Requirements:**
 
-Microsoft 365 Copilot APIs require a Microsoft 365 Copilot license for each user
-This is different from regular Microsoft Graph APIs
+- Microsoft 365 Copilot APIs require a Microsoft 365 Copilot license for each user
+- This is different from regular Microsoft Graph APIs
 
 **Permission Requirements:**
 
