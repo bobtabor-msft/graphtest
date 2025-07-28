@@ -22,19 +22,31 @@ Find it in Manage > App registrations
 There are four permissions listed here.
 
 **CopilotSettings-LimitedMode**
+
 - CopilotSettings-LimitedMode.Read
+
   Read organization-wide copilot limited mode setting
+  
   Admin consent required: yes
+
 - CopilotSettings-LimitedMode.ReadWrite
+
   Read and write organization-wide copilot limited mode setting
+
   Admin consent required: yes
 
 **SecurityCopilotWorkspaces**
+
 - SecurityCopilotWorkspaces.Read.All
+
   Read all Security Copilot resources for the signed-in user
+
   Admin consent required: no
+
 - SeucirtyCOpilotWorkspaces.ReadWrite.All
+
   Read and write individually owned Secuiryt Copilot resources of the signed-in user
+
   Admin consent required: no
 
 ![Screenshot of the Request API permissions dialog](/screenshot.png)
