@@ -115,6 +115,8 @@ Details: {"error":{"code":"PreconditionFailed","message":"Requested API is not s
 
 ### Important Notes:
 
+These were some notes from Copilot which (obvs) helped me create this.
+
 **Licensing Requirements:**
 
 - Microsoft 365 Copilot APIs require a Microsoft 365 Copilot license for each user
